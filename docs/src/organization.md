@@ -51,12 +51,9 @@ Common organization-specific errors include:
 - Insufficient permissions for the organization
 - Organization-specific rate limits
 
-```@raw html
-<div class="admonition note">
-  <p class="admonition-title">Note</p>
-  <p>The authentication token must have appropriate permissions for the specified organization.</p>
-</div>
-```
+!!! note "authentication"
+  The authentication token must have appropriate permissions for the specified organization.
+
 
 ## Best Practices
 

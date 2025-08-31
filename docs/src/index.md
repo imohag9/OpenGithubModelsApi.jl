@@ -72,16 +72,11 @@ This package provides a Julia-native interface to GitHub's AI models API with se
 - **Simplified Interface**: High-level functions that handle common use cases
 - **Documentation**: Comprehensive documentation for all API endpoints
 
-```@raw html
-<div class="admonition note">
-  <p class="admonition-title">Note</p>
-  <p>This package was automatically generated using OpenAPI.jl from GitHub's API specification.</p>
-</div>
-```
 
-```@raw html
-<div class="admonition warning">
-  <p class="admonition-title">Warning</p>
-  <p>Streaming responses are not currently supported by this package. Attempting to use streaming will result in an error.</p>
-</div>
-```
+!!! note "Package Generation"
+  This package was automatically generated using OpenAPI.jl from GitHub's API specification.
+
+
+!!! note "Streaming Support"
+  Streaming responses are not currently supported by this package. Attempting to use streaming will result in an error.
+
