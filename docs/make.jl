@@ -14,6 +14,12 @@ makedocs(;
     ),
     pages=[
         "Home" => "index.md",
+        "Client Initialization" => "client.md",
+        "Chat Completion" => "chat_completion.md",
+        "Organization Features" => "organization.md",
+        "Model Catalog" => "models.md",
+        "Data Models Reference" => "models_reference.md",
+        "Troubleshooting" => "troubleshooting.md"
     ],
 )
 
