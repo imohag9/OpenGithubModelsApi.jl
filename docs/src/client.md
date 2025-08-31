@@ -5,11 +5,6 @@ CurrentModule = OpenGithubModelsApi
 
 The `GithubModelsClient` is the main entry point for interacting with GitHub's AI Models API.
 
-## Creating a Client
-
-```@docs
-GithubModelsClient
-```
 
 ### Basic Usage
 

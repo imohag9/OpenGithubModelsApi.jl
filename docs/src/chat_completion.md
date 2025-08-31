@@ -5,11 +5,6 @@ CurrentModule = OpenGithubModelsApi
 
 The chat completion API allows you to interact with GitHub's AI models through a conversational interface.
 
-## Basic Chat Completion
-
-```@docs
-create_chat_completion
-```
 
 ### Simple Example
 
@@ -44,17 +39,8 @@ println(response)
 - `model`: ID of the specific model to use (format: `{publisher}/{model_name}`)
 - `messages`: Array of message objects with `role` and `content`
 
-### Optional Parameters
 
-```@docs
-InferenceRequest
-```
 
-## Message Structure
-
-```@docs
-Message
-```
 
 Valid message roles are:
 - `"system"`: For system instructions

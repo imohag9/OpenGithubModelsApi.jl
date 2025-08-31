@@ -5,11 +5,7 @@ CurrentModule = OpenGithubModelsApi
 
 The model catalog API allows you to discover and understand available AI models.
 
-## Listing Available Models
 
-```@docs
-list_models
-```
 
 ### Basic Usage
 
@@ -31,11 +27,6 @@ for model in models
 end
 ```
 
-## Model Data Structure
-
-```@docs
-ModelData
-```
 
 ### Key Model Properties
 

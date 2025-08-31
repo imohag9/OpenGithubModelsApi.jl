@@ -5,11 +5,6 @@ CurrentModule = OpenGithubModelsApi
 
 GitHub's AI Models API supports organization-scoped models and access controls.
 
-## Organization Chat Completion
-
-```@docs
-org_create_chat_completion
-```
 
 ### Example Usage
 

@@ -2,11 +2,7 @@
 CurrentModule = OpenGithubModelsApi
 ```
 
-# OpenGithubModelsApi.jl
 
-```@docs
-OpenGithubModelsApi
-```
 
 **OpenGithubModelsApi.jl** is a Julia client library for interacting with GitHub's AI Models API (https://models.github.ai). This package was automatically generated using [OpenAPI.jl](https://github.com/OpenAPI-Generator/OpenAPI.jl), providing a type-safe and validated interface to GitHub's machine learning models.
 
