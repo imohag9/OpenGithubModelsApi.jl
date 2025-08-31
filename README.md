@@ -1,7 +1,6 @@
 # OpenGithubModelsApi.jl
 
 [![CI](https://github.com/imohag9/OpenGithubModelsApi.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/imohag9/OpenGithubModelsApi.jl/actions/workflows/CI.yml)
-[![Docs](https://img.shields.io/badge/docs-stable-blue.svg)](https://imohag9.github.io/OpenGithubModelsApi.jl/stable)
 [![Docs](https://img.shields.io/badge/docs-dev-blue.svg)](https://imohag9.github.io/OpenGithubModelsApi.jl/dev)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
