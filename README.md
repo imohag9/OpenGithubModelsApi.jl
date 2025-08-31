@@ -159,7 +159,7 @@ The package provides comprehensive type definitions for all API interactions:
 
 ## Documentation
 
-For complete documentation, visit [https://imohag9.github.io/OpenGithubModelsApi.jl/stable](https://imohag9.github.io/OpenGithubModelsApi.jl/stable).
+For complete documentation, visit [https://imohag9.github.io/OpenGithubModelsApi.jl/stable](https://imohag9.github.io/OpenGithubModelsApi.jl/dev).
 
 ## Testing
 
@@ -174,6 +174,3 @@ Pkg.test("OpenGithubModelsApi")
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments
-
-- Built with [OpenAPI.jl](https://github.com/OpenAPI-Generator/OpenAPI.jl) for automatic API client generation
