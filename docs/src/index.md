@@ -55,12 +55,12 @@ println(response)
 
 This documentation is organized into several sections:
 
-- [Client Initialization](client.html) - How to set up the API client
-- [Chat Completion](chat_completion.html) - Using the standard chat completion API
-- [Organization Features](organization.html) - Working with organization-specific models
-- [Model Catalog](models.html) - Listing and understanding available models
-- [Data Models Reference](models_reference.html) - Detailed reference for all data structures
-- [Troubleshooting](troubleshooting.html) - Common issues and solutions
+- Client Initialization - How to set up the API client
+- Chat Completion- Using the standard chat completion API
+- Organization Features - Working with organization-specific models
+- Model Catalog - Listing and understanding available models
+- Data Models Reference - Detailed reference for all data structures
+- Troubleshooting - Common issues and solutions
 
 ## Why Use This Package?
 
