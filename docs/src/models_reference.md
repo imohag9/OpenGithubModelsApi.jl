@@ -5,88 +5,9 @@ CurrentModule = OpenGithubModelsApi
 
 This section provides detailed documentation for all data structures used in the API.
 
-## Request Models
-
-### InferenceRequest
-
-```@docs
-InferenceRequest
+```@autodocs
+Modules = [OpenGithubModelsApi]
 ```
-
-### Message
-
-```@docs
-Message
-```
-
-### InferenceRequestResponseFormat
-
-```@docs
-InferenceRequestResponseFormat
-```
-
-### InferenceRequestStreamOptions
-
-```@docs
-InferenceRequestStreamOptions
-```
-
-### InferenceRequestToolsInner
-
-```@docs
-InferenceRequestToolsInner
-```
-
-### Function_Params
-
-```@docs
-Function_Params
-```
-
-## Response Models
-
-### InferenceResponse
-
-```@docs
-InferenceResponse
-```
-
-### NonStreamingResponseChoices
-
-```@docs
-NonStreamingResponseChoices
-```
-
-### NonStreamingResponseMessage
-
-```@docs
-NonStreamingResponseMessage
-```
-
-### StreamingResponseData
-
-```@docs
-StreamingResponseData
-```
-
-### StreamingResponseDataChoices
-
-```@docs
-StreamingResponseDataChoices
-```
-
-### StreamingResponseDataDelta
-
-```@docs
-StreamingResponseDataDelta
-```
-
-### ModelData
-
-```@docs
-ModelData
-```
-
 ## Parameter Validation Rules
 
 ### Temperature and Top P

@@ -13,7 +13,7 @@ create_chat_completion
 
 ### Simple Example
 
-```@example chat
+```julia
 using OpenGithubModelsApi
 
 # Create a client (using a placeholder token for documentation)

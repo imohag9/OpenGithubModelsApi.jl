@@ -8,19 +8,19 @@ The model catalog API allows you to discover and understand available AI models.
 ## Listing Available Models
 
 ```@docs
-get_all_models
+list_models
 ```
 
 ### Basic Usage
 
-```@example models
+```julia
 using OpenGithubModelsApi
 
 # Create a client (using a placeholder token for documentation)
 client = GithubModelsClient("ghp_example_token")
 
 # Get all available models
-models = get_all_models(client)
+models = list_models(client)
 
 # Print model information
 for model in models

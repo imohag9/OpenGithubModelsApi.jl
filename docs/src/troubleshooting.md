@@ -22,7 +22,7 @@ This section covers common issues and their solutions when using the OpenGithubM
 
 **Solution**:
 - Model IDs must be in the format `{publisher}/{model_name}`
-- Verify the model exists using `get_all_models()`
+- Verify the model exists using `list_models()`
 - Check for typos in the model ID
 
 ### Parameter Validation Errors
@@ -62,7 +62,7 @@ response = create_chat_completion(client, request, verbose=true)
 To understand available models:
 
 ```julia
-models = get_all_models(client)
+models = list_models(client)
 for model in models
     println("Model ID: $(model.id)")
     println("Supported input modalities: $(model.supported_input_modalities)")
@@ -100,7 +100,7 @@ end
 
 ### Q: How do I find available models?
 
-**A**: Use the `get_all_models(client)` function to retrieve a list of all available models with their metadata.
+**A**: Use the `list_models(client)` function to retrieve a list of all available models with their metadata.
 
 ### Q: What's the difference between `create_chat_completion` and `org_create_chat_completion`?
 

@@ -115,7 +115,7 @@ println(response)
 using OpenGithubModelsApi
 
 client = GithubModelsClient("YOUR_GITHUB_TOKEN")
-models = get_all_models(client)
+models = list_models(client)
 
 # Print available models
 for model in models
@@ -140,7 +140,7 @@ client = GithubModelsClient(auth_token;
 
 - `inference_req(client, request; verbose=false)` - Creates a standard chat completion
 - `org_inference_req(client, request, org; verbose=false)` - Creates an organization-scoped chat completion
-- `get_all_models(client)` - Lists all available models
+- `list_models(client)` - Lists all available models
 
 ### Data Models
 
