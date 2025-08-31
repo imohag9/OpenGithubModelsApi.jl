@@ -1,6 +1,5 @@
 
-
-@doc raw"""InferenceRequest
+""" InferenceRequest
 
     InferenceRequest(;
         model=nothing,
@@ -20,7 +19,7 @@
         top_p=nothing,
     )
 
-    - model::String : ID of the specific model to use for the request. The model ID should be in the format of {publisher}/{model_name} where \&quot;openai/gpt-4.1\&quot; is an example of a model ID. You can find supported models in the catalog/models endpoint.
+    - model::String : ID of the specific model to use for the request.
     - messages::Vector{Message} : The collection of context messages associated with this chat completion request. Typical usage begins with a chat message for the System role that provides instructions for the behavior of the assistant, followed by alternating messages between the User and Assistant roles.
     - frequency_penalty::Float64 : A value that influences the probability of generated tokens appearing based on their cumulative frequency in generated text. Positive values will make tokens less likely to appear as their frequency increases and decrease the likelihood of the model repeating the same statements verbatim. Supported range is [-2, 2].
     - max_tokens::Int64 : The maximum number of tokens to generate in the completion. The token count of your prompt plus max_tokens cannot exceed the model&#39;s context length. For example, if your prompt is 100 tokens and you set max_tokens to 50, the API will return a completion with a maximum of 50 tokens.

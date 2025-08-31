@@ -1,6 +1,6 @@
 
 
-@doc raw"""Streaming_Response_data_choices
+"""Streaming_Response_data_choices
 
     StreamingResponseDataChoices(;
         delta=nothing,

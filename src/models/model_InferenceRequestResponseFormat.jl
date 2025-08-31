@@ -1,6 +1,6 @@
 
 
-@doc raw"""InferenceRequest_response_format
+"""InferenceRequest_response_format
 
     InferenceRequestResponseFormat(;
         type=nothing,

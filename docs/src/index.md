@@ -31,7 +31,7 @@ Pkg.add("OpenGithubModelsApi")
 
 ## Quick Start
 
-```@example quickstart
+```julia
 using OpenGithubModelsApi
 
 # Create a client with your GitHub token

@@ -1,6 +1,6 @@
 
 
-@doc raw"""InferenceRequest_stream_options
+"""InferenceRequest_stream_options
 
     InferenceRequestStreamOptions(;
         include_usage=false,

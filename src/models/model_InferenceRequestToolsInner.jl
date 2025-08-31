@@ -1,6 +1,6 @@
 
 
-@doc raw"""InferenceRequest_tools_inner
+"""InferenceRequest_tools_inner
 
     InferenceRequestToolsInner(;
         call_function=nothing,

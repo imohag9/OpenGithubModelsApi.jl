@@ -1,6 +1,6 @@
 
 
-@doc raw"""InferenceResponse
+"""InferenceResponse
 
     InferenceResponse(;
         choices=nothing,

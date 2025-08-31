@@ -1,6 +1,6 @@
 
 
-@doc raw"""Non_Streaming_Response_message
+"""Non_Streaming_Response_message
 The message associated with the completion.
 
     NonStreamingResponseMessage(;

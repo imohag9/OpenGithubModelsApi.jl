@@ -1,6 +1,6 @@
 
 
-@doc raw"""Streaming_Response_data
+"""Streaming_Response_data
 Some details about the response.
 
     StreamingResponseData(;

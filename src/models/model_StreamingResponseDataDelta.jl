@@ -1,6 +1,6 @@
 
 
-@doc raw"""Streaming_Response_data_delta
+"""Streaming_Response_data_delta
 Container for the content of the streamed response.
 
     StreamingResponseDataDelta(;

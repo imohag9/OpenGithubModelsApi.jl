@@ -1,6 +1,6 @@
 
 
-@doc raw"""ModelData
+"""ModelData
 
     ModelData(;
         id=nothing,

@@ -50,7 +50,7 @@ If invalid parameters are provided, the client constructor will throw appropriat
 
 ## Example
 
-```@example client
+```julia
 using OpenGithubModelsApi
 
 # Create a client (using a placeholder token for documentation)

@@ -1,6 +1,6 @@
 
 
-@doc raw"""Non_Streaming_Response_choices
+"""Non_Streaming_Response_choices
 
     NonStreamingResponseChoices(;
         message=nothing,

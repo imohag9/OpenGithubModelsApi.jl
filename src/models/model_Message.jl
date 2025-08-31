@@ -1,6 +1,6 @@
 
 
-@doc raw"""InferenceRequest_messages_inner
+"""InferenceRequest_messages_inner
 
     Message(;
         role=nothing,

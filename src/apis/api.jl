@@ -12,7 +12,7 @@ function _oacinternal_create_chat_completion(client::GithubModelsClient, inferen
     return _ctx
 end
 
-@doc raw"""Creates a chat completion.
+"""Creates a chat completion.
 
 Params:
 - auth_token::String (required)
@@ -67,7 +67,7 @@ function _oacinternal_create_org_chat_completion(client::GithubModelsClient, org
     return _ctx
 end
 
-@doc raw"""Creates a chat completion for a given organization.
+"""Creates a chat completion for a given organization.
 
 Params:
 - org::String (required)
@@ -126,7 +126,7 @@ function _oacinternal_list_models(client::GithubModelsClient)
     return _ctx
 end
 
-@doc raw"""Lists available models.
+"""Lists available models.
 
 Params:
 - auth_token::String (required)
