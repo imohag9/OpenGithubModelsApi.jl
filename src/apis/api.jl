@@ -29,7 +29,7 @@ function create_chat_completion(client::GithubModelsClient, inference_request::I
     try
             result = OpenAPI.Clients.exec(_ctx)
             if result[2].status ≠ STATUS_SUCCESS
-                error("result[2].message \n Make sure you created a valid request and/or a valid Auth Token")
+                error("$(result[2].message) \n Make sure you created a valid request and/or a valid Auth Token")
             else
                 verbose && return result[1]
                 if isa(result[1],InferenceResponse)
@@ -88,7 +88,7 @@ function create_org_chat_completion(client::GithubModelsClient, org::String, inf
     try
             result = OpenAPI.Clients.exec(_ctx)
             if result[2].status ≠ STATUS_SUCCESS
-                error("result[2].message \n Make sure you created a valid request and/or a valid Auth Token")
+                error("$(result[2].message) \n Make sure you created a valid request and/or a valid Auth Token")
 
             else
                 verbose && return result[1]
