@@ -46,7 +46,7 @@ function create_chat_completion(client::GithubModelsClient, inference_request::I
             if e isa OpenAPI.Clients.ApiException
                 error("$(e.error.message) \nVerify your connection\n")
             else
-                rethrow(e)
+                rethrow()
             end
         end
 
@@ -106,7 +106,7 @@ function create_org_chat_completion(client::GithubModelsClient, org::String, inf
             if e isa OpenAPI.Clients.ApiException
                 error("$(e.error.message) \nVerify your connection\n")
             else
-                rethrow(e)
+                rethrow()
             end
         end
 end
@@ -149,7 +149,7 @@ function list_models(client::GithubModelsClient)
             if e isa OpenAPI.Clients.ApiException
                 error("$(e.error.message) \nVerify your connection\n")
             else
-                rethrow(e)
+                rethrow()
             end
         end
 end
