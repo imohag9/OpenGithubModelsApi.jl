@@ -33,7 +33,7 @@ function create_chat_completion(client::GithubModelsClient, inference_request::I
             else
                 verbose && return result[1]
                 if isa(result[1],InferenceResponse)
-                    return result[1].choices.message.content
+                    return result[1].choices[1].message.content
                 else
                 return result[1].message.content
                 end
